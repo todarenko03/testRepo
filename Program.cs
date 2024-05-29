@@ -12,8 +12,8 @@
         Console.WriteLine(A);
     }
 
-    public static void Main(params object[] args) 
+    static void Main(String[] args) 
     {
-        
+
     }
 }
