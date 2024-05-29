@@ -51,7 +51,6 @@ jobs:
       - name: Run dotnet format
         run: |
           $ErrorActionPreference = 'Stop'
-          # Find all .csproj files and run dotnet format on each
           Get-ChildItem -Path . -Recurse -Filter *.csproj | ForEach-Object {
             dotnet format $_.FullName --verify-no-changes --verbosity diagnostic
           }
