@@ -3,12 +3,15 @@ autofix: false
 
 # list of paths to ignore, uses gitignore syntaxes (executes before any rule)
 ignore:
-  - '**/*.md'
-  - '**/*.info'
-  - '**/*.yml'
-  - '**/*.txt'
-  - '**/*.json'
-  - '**/*.xml'
+  - '*.md'
+  - '*.info'
+  - '*.yml'
+  - '*.txt'
+  - '*.json'
+  - '*.xml'
+  - '*.cache'
+  - '*.props'
+  - '*.targets'
 
 rules:
   # checks if file ends in a newline character
